@@ -31,6 +31,10 @@ function validate(item) {
         alert(`Name orasida raqam ishtirok etmasligi kerak`);
     }
 
+    if (!email.value) {
+        console.log('Salom');
+    }
+
     
 
     return true
